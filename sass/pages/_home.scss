@@ -10,6 +10,14 @@
         to right bottom, 
         rgba($color-primary-light, 0.8), 
         rgba($color-primary-dark, 0.8)), 
-    url('../img/tomas-malik-1185813-unsplash.jpg');
+    url('../img/buc-4.jpg');
     background-size: cover;
+    transform: skewY(-7deg);
+    margin-top: -10rem;
+    
+    // All direct children of parent & > *
+    // All direct children and elements of parent & *
+    & > * {
+        transform: skewY(7deg);
+    }
 }
