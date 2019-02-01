@@ -11,6 +11,7 @@
         width: 100%;
         backface-visibility: hidden;
         border-radius: 3px;
+        overflow: hidden;
         height: 50rem;
         transition: all .8s ease;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
@@ -34,5 +35,26 @@
 
     &:hover &__side--back {
         transform: rotateY(0);
+    }
+
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        background-blend-mode: screen;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        -webkit-background-clip: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+        &--1 {
+            background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+            url(../../img/buc-5.jpg);
+        }
+
+        &--2 {
+            background-image: url(../../img/buc-5.jpg);
+        }
+
+        &--3 {
+            background-image: url(../../img/buc-5.jpg);
+        }
     }
 }
