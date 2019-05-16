@@ -32,3 +32,21 @@
     padding: 15rem 0;
     position: relative;
 }
+
+.section-booking {
+    padding: 15rem 0;
+    background-image: linear-gradient(
+        to right bottom, 
+        $color-primary-light, 
+        $color-primary-dark
+    );
+}
+
+.book {
+    background-image: url(../../img//camping.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+    height: 50rem;
+}
