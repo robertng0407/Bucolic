@@ -468,7 +468,10 @@ body {
   height: 6rem;
   width: 6rem;
   border-radius: 50%;
-  position: fixed; }
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  background-image: radial-gradient(#7ed56f, #28b485); }
 
 .footer {
   background-color: #333;
